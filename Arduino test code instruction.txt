@@ -1,0 +1,7 @@
+1:We have 6 Arduino display test codes and 6 SD card test codes
+2:Our test codes apply with Arduino UNO, UNO R4 MINIMA, UNO R4 WIFI and Mega 2560 boards. You can directly plug it onto your board and test. No need of wiring.
+3:Example01-Simple tes is the easiest test as it doesn't need any installation of libraries and you can use the RGB codes to test out the screen quality.
+4:Example02~06 need to install libraries .Please copy the files in Install libraries to the path of your Arduino file.
+5:SDCard Exten Example and Example05-ShowBMP will need SD card and test programs that involves SD card can work on Arduino UNO, UNO R4 MINIMA, and UNO R4 WIFI because the SPI interface between the Uno board and the Mega 2560 board is different.
+If you want to use the sd card module with Mega 2560 board, you need to use the dupont wires to connect the SPI pin of the 2.8 inch screen to the SPI pins (53(SS), 51(MOSI), 50(MISO), 52(SCK)) of the Mega's board.
+6:Our test codes uses Arduino IDE of arduino-1.8.19-windows. If you use older version of IDE you may get compiling errors so please use updated version of IDE.

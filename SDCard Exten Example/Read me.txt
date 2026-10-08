@@ -1,0 +1,2 @@
+Attention:
+"SDCard Exten Example" only support the Arduino UNO R3, UNO R4 MINIMA, and UNO R4 WIFI, not support the Mega2560, Because they use different SPI bus.
